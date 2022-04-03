@@ -1,46 +1,79 @@
-* {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-   }
-   
-   html {
-     height: 100%;
-   }
-   
-   body {
-     min-height: 100%;
-     line-height: 1;
-     font-family: sans-serif;
-   }
-   
-   h1,
-   h2,
-   h3,
-   h4,
-   h5,
-   h6 {
-     font-size: 100%;
-   }
-   
-   input,
-   select,
-   option,
-   optgroup,
-   textarea,
-   button,
-   pre,
-   code {
-     font-size: 100%;
-     font-family: inherit;
-   }
-   
-   ol,
-   ul {
-     list-style: none;
-   }
-
-   .time {
-        background-color: lemonchiffon;
-        padding: 50px;
-   }}
+body {
+     background-color: #FFF1D8;
+     color: #152a42;
+ }
+ a {
+     text-decoration: none;
+     color: #fff;
+ }
+ a:hover {
+     color: #152a42;
+ }
+ 
+ button {
+      background: #152a42;
+      color: #ffffff;
+      padding: 25px 15px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 22px;
+      font-weight: bold;
+      min-width: 300px;
+      text-align: center;
+      letter-spacing: .05em;
+      border-radius: 15px;
+      border: none;
+      cursor: pointer;
+      -webkit-transition: 0.3s ease-in-out;
+      -moz-transition: 0.3s ease-in-out;
+      -o-transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out;
+ }
+ 
+ button:hover {
+      background: #7095BF;
+ }
+ 
+ #quiz-area {
+     text-align: center;
+     padding: 40px;
+     font-size: 30px;
+ }
+      #quiz-area button {
+           margin: 0 5px;
+      }
+ #score-container {
+      display: flex;
+      padding: 20px;
+      background: red;
+      color: #ffffff;
+      font-size: 22px;
+ 
+ }
+      #score-container .left-column {
+           float: left;
+           width: 50%;
+      }
+      #score-container .right-column {
+           float: left;
+           width: 50%;
+           text-align: right;
+      }
+      
+ .quiz-wrapper {
+      width: 100%;
+      float: left;
+      padding: 40px 0;
+ }
+      .quiz-content {
+           font-size: 30px;
+      }
+           .quiz-content input {
+                max-width: 400px;
+                min-width: 300px;
+                margin: 20px auto;
+                display: block;
+                padding: 15px 10px;
+                border-radius: 10px;
+                border: 1px solid red;
+           }
