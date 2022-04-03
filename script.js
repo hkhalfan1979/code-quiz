@@ -2,29 +2,29 @@ console.log("script connected");
 
 //arrray of the quiz questions, avaialble choices, and correct answers
 var questions = [{
-    title: "question placeholder 1?",
-    choices: ["Answer A", "Answer B", "Answer C", "Answer D"],
-    answer: "Answer D"
+    title: "What built in javascript method returns the length of the string?",
+    choices: ["Concat()", "indexOf()", "length()", "reverse()"],
+    answer: "length()"
 },
 {
-    title: "question placeholder 2?",
-    choices: ["Answer A", "Answer B", "Answer C", "Answer D"],
-    answer: "Answer A"
+    title: "NaN is a short form of?",
+    choices: ["Not a Number", "undefined", "Not a Value", "error"],
+    answer: "Not a Number"
 },
 {
-    title: "question placeholder 3?",
-    choices: ["Answer A", "Answer B", "Answer C", "Answer D"],
-    answer: "Answer B"
+    title: "What link html attribute will open a link in a new window?",
+    choices: ["_self", "_blank", "_top", "_parent"],
+    answer: "_blank"
 },
 {
-    title: "question placeholder 4?",
-    choices: ["Answer A", "Answer B", "Answer C", "Answer D"],
-    answer: "Answer C"
+    title: "What of the following is not a JavaScript Data types?",
+    choices: ["string", "boolean", "integer", "arr"],
+    answer: "arr"
 },
 {
-    title: "question placeholder 5?",
-    choices: ["Answer A", "Answer B", "Answer C", "Answer D"],
-    answer: "Answer A"
+    title: "How do you create an array in JavaScript??",
+    choices: ["var a = {}", "var a = ()", "var a = ({})", "var a = []"],
+    answer: "var a = []"
 }
 ]
 console.log(questions);
