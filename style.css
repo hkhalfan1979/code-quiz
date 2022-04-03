@@ -40,12 +40,15 @@ body {
      font-size: 30px;
  }
       #quiz-area button {
-           margin: 0 5px;
+          display: block;
+          margin: 15px auto;
+          text-transform: initial;
+          padding: 10px;
       }
  #score-container {
       display: flex;
       padding: 20px;
-      background: red;
+      background: #e25e14;
       color: #ffffff;
       font-size: 22px;
  
